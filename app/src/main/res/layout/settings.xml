@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textSize="27dp"
+        app:layout_constraintRight_toLeftOf="@+id/sweight"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/sweight"
+        tools:layout_constraintBaseline_creator="1"
+        android:layout_marginRight="15dp" />
+
+    <EditText
+        android:id="@+id/sweight"
+        android:layout_width="114dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/displaytar"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="41dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wakeup  :"
+        android:textSize="20dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintRight_toRightOf="@+id/retext"
+        android:layout_marginTop="181dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="32dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sleep      :"
+        android:textSize="20dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView7"
+        android:layout_marginTop="38dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/swakeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9:00"
+        android:textSize="27dp"
+        android:layout_marginStart="20dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/textView7"
+        android:layout_marginLeft="20dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/ssleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23:00"
+        android:textSize="27dp"
+        android:layout_marginStart="21dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView8"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/textView8"
+        android:layout_marginLeft="21dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/ssleep"
+        android:layout_marginEnd="41dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="41dp" />
+
+    <TextView
+        android:id="@+id/retext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reminder"
+        android:textSize="27dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="116dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="115dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button2"
+        android:layout_marginLeft="34dp" />
+
+    <Switch
+        android:id="@+id/rswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="148dp"
+        android:layout_marginEnd="147dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/rtime"
+        app:layout_constraintTop_toTopOf="@+id/retext"
+        android:layout_marginLeft="148dp"
+        android:layout_marginRight="147dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/rtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reminder\nDuration"
+        android:textSize="20dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintRight_toLeftOf="@+id/duration"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="34dp"
+        app:layout_constraintTop_toBottomOf="@+id/retext"
+        android:layout_marginBottom="33dp"
+        android:layout_marginRight="13dp" />
+
+    <EditText
+        android:id="@+id/duration"
+        android:layout_width="32dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:text="30"
+        android:inputType="number"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/rtime"
+        app:layout_constraintRight_toRightOf="@+id/retext"
+        android:layout_marginTop="1dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintTop_toTopOf="@+id/rtime"
+        app:layout_constraintLeft_toRightOf="@+id/retext" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="min"
+        android:textSize="15dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/duration"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/duration" />
+
+    <Button
+        android:id="@+id/weightUpdate"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="Update"
+        android:layout_marginEnd="16dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="31dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/displaytar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="target"
+        android:textSize="20dp"
+        app:layout_constraintRight_toLeftOf="@+id/swakeup"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/swakeup"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintLeft_toLeftOf="@+id/swakeup" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="change"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView13"
+        tools:layout_constraintBaseline_creator="1"
+        android:layout_marginRight="16dp" />
+</android.support.constraint.ConstraintLayout>

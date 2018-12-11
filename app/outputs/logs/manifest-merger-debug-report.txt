@@ -1,0 +1,133 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:3:5-53
+		INJECTED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:5:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Thanmai\.android\build-cache\66a2a52010497d9799e7f469790133e613e1c80f\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Thanmai\.android\build-cache\2529a90ac3692efa3a311b5d7fd37063fcd0fc56\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Thanmai\.android\build-cache\ad4245198105e1056a7f8e7fca56ee8e598d0c11\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Thanmai\.android\build-cache\99954f1ade8078c01031e057d78c8cf8b89ce266\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Thanmai\.android\build-cache\0834f2b9151855e26573c78105a30ae7122a4cbb\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Thanmai\.android\build-cache\12fd5c33e893f7d0d818fe23bcb3e2f4b1779074\output\AndroidManifest.xml:26:5-20
+MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\Thanmai\.android\build-cache\1b06ee8218c470273dc905c43fd47019d60592ad\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Thanmai\.android\build-cache\ec213ea49b872a15589acf33cded67ea664b092e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Thanmai\.android\build-cache\ed92fc9003ca03e5671d68394e07eff4c8dbd49f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Thanmai\.android\build-cache\f23d18832e45120f3b24b803be108ebaae98eb5a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Thanmai\.android\build-cache\c5a8f8ad8a09409dcebe1740372a275bb8e0e595\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Thanmai\.android\build-cache\f3566fc7a3a96a3ebab7e07503b8a38c1a6de63f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Thanmai\.android\build-cache\3a8ab2d46654229d8b5f48d5a5ffa598a7f68921\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:7:9-38
+	android:theme
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.thanmai.waterintaketracker.MainActivity
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.thanmai.waterintaketracker.HomeAlarmActivity
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:19:9-54
+	android:name
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:19:19-52
+activity#com.example.thanmai.waterintaketracker.graphActivity
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:20:9-50
+	android:name
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:20:19-48
+activity#com.example.thanmai.waterintaketracker.logActivity
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:21:9-48
+	android:name
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:21:19-46
+activity#com.example.thanmai.waterintaketracker.settingsActivity
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:22:9-53
+	android:name
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:22:19-51
+activity#com.example.thanmai.waterintaketracker.AlarmActivity
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:23:9-50
+	android:name
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:23:19-48
+receiver#com.example.thanmai.waterintaketracker.DailyAlarm
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:25:9-27:38
+	android:enabled
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:25:19-45
+receiver#com.example.thanmai.waterintaketracker.MyAlarm
+ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:28:9-30:38
+	android:enabled
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:29:13-35
+	android:exported
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml:28:19-42
+uses-sdk
+INJECTED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Thanmai\.android\build-cache\66a2a52010497d9799e7f469790133e613e1c80f\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Thanmai\.android\build-cache\2529a90ac3692efa3a311b5d7fd37063fcd0fc56\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Thanmai\.android\build-cache\ad4245198105e1056a7f8e7fca56ee8e598d0c11\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Thanmai\.android\build-cache\99954f1ade8078c01031e057d78c8cf8b89ce266\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Thanmai\.android\build-cache\0834f2b9151855e26573c78105a30ae7122a4cbb\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Thanmai\.android\build-cache\4ae8a05d22dd413218e79f392fd643aef0d48ac1\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Thanmai\.android\build-cache\12fd5c33e893f7d0d818fe23bcb3e2f4b1779074\output\AndroidManifest.xml:20:5-44
+MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\Thanmai\.android\build-cache\1b06ee8218c470273dc905c43fd47019d60592ad\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Thanmai\.android\build-cache\ec213ea49b872a15589acf33cded67ea664b092e\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Thanmai\.android\build-cache\ed92fc9003ca03e5671d68394e07eff4c8dbd49f\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Thanmai\.android\build-cache\f23d18832e45120f3b24b803be108ebaae98eb5a\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Thanmai\.android\build-cache\c5a8f8ad8a09409dcebe1740372a275bb8e0e595\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Thanmai\.android\build-cache\f3566fc7a3a96a3ebab7e07503b8a38c1a6de63f\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Thanmai\.android\build-cache\3a8ab2d46654229d8b5f48d5a5ffa598a7f68921\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Thanmai\.android\build-cache\2529a90ac3692efa3a311b5d7fd37063fcd0fc56\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Thanmai\Desktop\WaterIntakeTracker\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Thanmai\.android\build-cache\2529a90ac3692efa3a311b5d7fd37063fcd0fc56\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Thanmai\.android\build-cache\ad4245198105e1056a7f8e7fca56ee8e598d0c11\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Thanmai\.android\build-cache\99954f1ade8078c01031e057d78c8cf8b89ce266\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Thanmai\.android\build-cache\0834f2b9151855e26573c78105a30ae7122a4cbb\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Thanmai\.android\build-cache\4ae8a05d22dd413218e79f392fd643aef0d48ac1\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Thanmai\.android\build-cache\12fd5c33e893f7d0d818fe23bcb3e2f4b1779074\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Thanmai\.android\build-cache\ec213ea49b872a15589acf33cded67ea664b092e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Thanmai\.android\build-cache\ed92fc9003ca03e5671d68394e07eff4c8dbd49f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Thanmai\.android\build-cache\f23d18832e45120f3b24b803be108ebaae98eb5a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Thanmai\.android\build-cache\c5a8f8ad8a09409dcebe1740372a275bb8e0e595\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Thanmai\.android\build-cache\f3566fc7a3a96a3ebab7e07503b8a38c1a6de63f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Thanmai\.android\build-cache\3a8ab2d46654229d8b5f48d5a5ffa598a7f68921\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Thanmai\.android\build-cache\2529a90ac3692efa3a311b5d7fd37063fcd0fc56\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Thanmai\.android\build-cache\2529a90ac3692efa3a311b5d7fd37063fcd0fc56\output\AndroidManifest.xml:26:9-47
